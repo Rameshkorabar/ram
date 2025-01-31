@@ -1,0 +1,92 @@
+.container-cal{
+    background-color: rgb(108, 103, 103);
+    display: flex;
+    padding: 25px;
+    padding-top: 0px;
+    flex-direction: column;
+    /* text-align: center; */
+    /* height: 700px; */
+    /* width: 500px; */
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 5px rgb(154, 183, 192),  -2px 2px 5px rgb(114, 132, 138);
+  
+}
+p{
+    font-size: 28px;
+    margin: -0px;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 233, 229);
+}
+.input-user{
+    width: 100%;
+    margin-top: 0px;
+    height: 88px;
+    margin-bottom: 0px;
+    padding: 5px;
+  
+}
+.input-user{
+
+    margin-top: 0px;
+    height: 80px;
+    font-size: 28px;
+    background-color: rgb(209, 216, 223);
+    text-align: right;
+    margin-right: 10px;
+    display: flex;
+    /* text-align: right; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    border-radius: 20px ;
+    border: 2px solid rgb(222, 155, 155);
+    cursor: pointer;
+    box-shadow: inset 2px 2px 5px rgb(157, 176, 182),  -2px 2px 5px rgb(164, 179, 183);
+  
+}
+.sub input{
+    padding: 25px;
+    margin-bottom:px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    cursor: pointer;
+    border: 2px solid rgb(197, 168, 112);
+    background-color: rgb(205, 209, 212);
+
+}
+.sub input:hover{
+
+    transform:scale3d(1s);
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+
+}
+#btn1 {
+ background-color: rgb(233, 135, 24);
+ 
+}
+#btn:active{
+    box-shadow: 1px 1px  15px #b6acac;
+}
+#btn1:active{
+    box-shadow: 1px 1px  15px #dea12f;
+}
